@@ -1,0 +1,131 @@
+.myservices{
+    overflow: hidden;
+    padding: 4em;
+    color: #F3F4F6;
+    background-color: #111827;
+    cursor: default;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.service > div{
+    float: left;
+    width: 25%;
+    margin-top: 2em;
+    padding: 0 0.2em;
+    text-align: center;
+    background-color: #020617;
+    border-radius: 1em 1em;
+}
+
+.service > div:not(:nth-child(3)){
+    margin-right: 10em;
+}
+
+.service > div:nth-child(3){
+    padding-bottom: 2.4em;
+}
+
+.service > div:hover{
+    box-shadow: 0.4em 0.3em 0.5em rgba(8, 2, 34, 0.55);
+}
+
+.heading > h1{
+    text-align: center;
+}
+
+.heading > h1 > span{
+    margin-left: 0.5em;
+    color: #EAB308;
+}
+
+.icon{
+    margin-top: 0.5em;
+    font-size: 2.5em;
+    color: #EAB308;
+}
+
+@media screen and (max-width: 1430px) {
+    .service > div:not(:nth-child(3)){
+        margin-right: 8em;
+    }
+}
+
+@media screen and (max-width:1248px) {
+    .service > div:nth-child(3){
+        padding-bottom: 0.2em;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .service > div:not(:nth-child(3)){
+        margin-right: 5em;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .service{
+        font-size: small;
+    }
+
+    .service > div{
+        width: 28%;
+    }
+
+    .service > div:not(:nth-child(3)){
+        margin-right: 3em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .service{
+        font-size: small;
+    }
+
+    .title > h2{
+        font-size: large;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .service{
+        font-size: xx-small;
+    }
+
+    .title > h2{
+        font-size: small;
+    }
+
+    .service > div{
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service{
+        font-size: large;
+    }
+
+    .service > div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .service{
+        font-size: small;
+    }
+
+    .heading > h1{
+        font-size: medium;
+    }
+
+    .icon{
+        font-size: x-large
+    }
+
+    .title{
+        font-size: xx-small;
+    }
+}

@@ -1,0 +1,155 @@
+.myprojects{
+    overflow: hidden;
+    padding: 4em;
+    color: #F3F4F6;
+    background-color: #020617;
+    cursor: default;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.heading > h1{
+    text-align: center;
+}
+
+.heading > h1 > span{
+    margin-left: 0.5em;
+    color: #EAB308;
+}
+
+.project > div{
+    float: left;
+    width: 25%;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    background-color: #111827;
+    border-radius: 1em 1em;
+}
+
+.project > div:not(:nth-child(3)){
+    margin-right: 10.2em;
+}
+
+.project > div:nth-child(1){
+    padding-bottom: 1em;
+}
+
+.link > a{
+    text-decoration: none;
+    color: #EAB308;
+}
+
+.link > a:hover{
+    transform: scaleX(1);
+    color: #F3F4F6;
+}
+
+@media screen and (max-width: 1451px) {
+    .project > div{
+        width: 26%;
+    }
+
+    .project > div:not(:nth-child(3)){
+        margin-right: 8em;
+    }
+}
+
+@media screen and (max-width: 1393px) {
+    .project > div:not(:nth-child(3)){
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 1309px) {
+    .project > div{
+        width: 27%;
+    }
+
+    .project > div:not(:nth-child(3)){
+        margin-right: 6em;
+    }
+
+    .project > div:nth-child(2){
+        padding-bottom: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .project{
+        font-size: small;
+    }
+
+    .project > div:nth-child(1){
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 1121px) {
+    .project > div:nth-child(3){
+        padding-top: 0em;
+        padding-bottom: 0.8em;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    .project{
+        font-size: x-small;
+    }
+
+    .project > div:nth-child(3){
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .project > div:nth-child(3){
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .title > h2{
+        font-size: large;
+    }
+
+    .project > div{
+        width: 28%;
+    }
+
+    .project > div:not(:nth-child(3)){
+        margin-right: 4em;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .project > div{
+        width: 29%;
+    }
+
+    .project > div:not(:nth-child(3)){
+        margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .project > div{
+        width: 100%;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .project > div{
+        font-size: small;
+    }
+
+    .heading > h1{
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .project > div{
+        font-size: x-small;
+    }
+}
